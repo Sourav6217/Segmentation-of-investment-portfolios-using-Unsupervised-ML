@@ -1,7 +1,7 @@
 # Segmentation-of-investment-portfolios-using-Unsupervised-ML
 The objective is to segment investment portfolios based on risk, return, and allocation characteristics. This supports personalized investment advisory and portfolio optimization strategies. Segmentation helps align portfolios with investor risk appetite.
 
-Network URL: http://10.10.23.186:8501
+Network URL: http://10.10.23.186:8501/
 
 ### Data Description
 
