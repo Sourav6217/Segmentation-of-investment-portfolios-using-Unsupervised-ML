@@ -528,6 +528,11 @@ with tab3:
     radar_features = ["Revenuegrowth", "Log_Marketcap", "Log_Ebitda", "Weight", "Cap_Tier", "Quality_Score"]
     cluster_means = df.groupby("Cluster")[radar_features].mean()
 
+    def hex_to_rgba(hex_color, alpha=0.2):
+        hex_color = hex_color.lstrip("#")
+        r, g, b = int(hex_color[0:2], 16), int(hex_color[2:4], 16), int(hex_color[4:6], 16)
+        return f"rgba({r},{g},{b},{alpha})"
+
     fig_radar = go.Figure()
     for cluster_id, (label, color) in CLUSTER_LABELS.items():
         if cluster_id in cluster_means.index:
@@ -536,7 +541,7 @@ with tab3:
             cats = radar_features + [radar_features[0]]
             fig_radar.add_trace(go.Scatterpolar(
                 r=vals, theta=cats, fill="toself",
-                name=label, line_color=color, fillcolor=color + "33",
+                name=label, line_color=color, fillcolor=hex_to_rgba(color, 0.2),
             ))
     fig_radar.update_layout(
         polar=dict(bgcolor="#161b22", radialaxis=dict(color="#8b949e")),
