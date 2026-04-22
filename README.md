@@ -7,7 +7,7 @@ WeSchool Mumbai · PGDM-RBA 2024–26 · Group 5 · Hackathon Project
 
 ## 🚀 Live App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://segmentation-of-investment-portfolios-using-unsupervised-ml.streamlit.app/)
 
 ---
 
