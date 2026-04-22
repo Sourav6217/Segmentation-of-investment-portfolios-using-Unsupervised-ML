@@ -94,17 +94,4 @@ streamlit run app.py
 
 ---
 
-## 👥 Team — Group 5
-
-| Roll No | Name |
-|---------|------|
-| RBA35 | Vaishnavi Dube |
-| RBA46 | Parth Murdeshwar |
-| RBA51 | Palak Sahu |
-| RBA54 | Kaustubh Pawar |
-| RBA64 | Ajinkya Sarwankar |
-| RBA70 | Sourav Manna |
-
----
-
 *WeSchool Mumbai · PGDM-RBA · Batch 2024–26*
